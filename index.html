@@ -48,6 +48,11 @@
 
       figure {
         text-align: center;
+        margin: 0px;
+      }
+
+      figure > img {
+        width: 100%;
       }
 
       main {
@@ -81,6 +86,11 @@
 
       #history > div {
         padding-left: 50px;
+        width: 90%;
+      }
+
+      li {
+        line-height: 33px;
       }
     </style>
   </head>
@@ -100,7 +110,6 @@
       <section id="About">
         <figure>
           <img
-            width="1000"
             src="./assets/nasa-creative-challenge.png"
             alt="nasa art challenge"
           />
@@ -166,6 +175,9 @@
 
       <section id="apod-list">
         <h2>Dates</h2>
+        <p>
+          <strong>Press the Dates to know the corresponding APOD.</strong>
+        </p>
         <ol>
           <li><a href="./apods/day1.html">2025 February 13</a></li>
           <li><a href="./apods/day2.html">2025 February 11</a></li>
