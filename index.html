@@ -15,8 +15,7 @@
         margin: 0px;
       }
 
-      .header {
-        display: block;
+      header {
         background-color: white;
         width: 80%;
         margin: auto;
@@ -24,9 +23,12 @@
         border-radius: 10px;
         margin-bottom: 20px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        position: sticky;
+        top: 0%;
+        left: 10%;
       }
 
-      .header > h1 {
+      header > h1 {
         display: inline;
         padding: 20px;
         font-family: sans-serif;
@@ -52,7 +54,8 @@
         margin: 10px 0px 10px 0px;
       }
 
-      figure > img {
+      figure, img {
+        margin: 0px;
         width: 100%;
       }
 
@@ -97,11 +100,11 @@
         font-weight: 300;
         color: rgb(50, 93, 95);
       }
+
     </style>
   </head>
   <body>
     <header>
-      <div class="header">
         <h1>NASA-APOD</h1>
 
         <nav>
@@ -110,7 +113,6 @@
           <a href="#history">History</a>
           <a href="#apod-list">APOD</a>
         </nav>
-      </div>
     </header>
     <main>
       <section id="About">
