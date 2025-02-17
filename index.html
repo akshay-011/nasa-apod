@@ -16,42 +16,42 @@
       }
 
       header {
+        display: flex;
+        justify-content: space-around;
         background-color: white;
-        width: 80%;
         margin: auto;
-        padding: 20px 0px 20px 0px;
-        /* border-radius: 10px; */
-        margin-bottom: 20px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
         position: sticky;
-        top: 0%;
-        left: 10%;
+        top: 0px;
       }
 
       header > h1 {
-        display: inline;
-        padding: 20px;
-        font-family: sans-serif;
         letter-spacing: 0.1em;
         font-weight: 300;
         color: rgb(110, 110, 1);
+        flex-shrink: 1;
       }
 
       nav {
-        float: right;
-        width: 25%;
+        align-self: center;
       }
 
       nav > a {
-        margin: 0px 10px 0px 10px;
+        margin: 0px;
         font-size: 20px;
-        color: rgb(125, 125, 1);
         text-decoration: none;
+        padding: 20px;
+        color: rgb(125, 125, 1);
+        
+        &:hover {
+          color: rgb(255, 255, 255);
+          background-color: rgb(125, 125, 1);
+          
+        }
       }
 
       section {
         border-bottom: 0.5px solid dimgrey;
-        margin: 10px 0px 10px 0px;
       }
 
       figure, img {
@@ -60,35 +60,37 @@
       }
 
       main {
-        width: 75%;
+        max-width: 1400px;
         margin: auto;
+        padding: 0px 40px 0px 40px;
       }
-        h2 {
-          font-size: 30px;
-          color: olive;
-        }
+      
+      h2 {
+        font-size: 30px;
+        color: olive;
+      }
 
-        h3 {
-          color: olivedrab;
-          font-weight: 300;
-        }
+      h3 {
+        color: olivedrab;
+        font-weight: 300;
+      }
 
-        p,
-        li {
-          font-size: 20px;
-          color: rgb(90, 88, 88);
-          line-height: 28px;
-          text-align: justify;
-        }
+      p,
+      li {
+        font-size: 20px;
+        color: rgb(90, 88, 88);
+        line-height: 28px;
+        text-align: justify;
+      }
 
-        #history > div {
-          padding-left: 50px;
-          width: 90%;
-        }
+      #history > div {
+        padding-left: 50px;
+        width: 90%;
+      }
 
-        li {
-          line-height: 33px;
-        }
+      li {
+        line-height: 33px;
+      }
       
 
       #apod-list a {
