@@ -86,7 +86,7 @@ li {
 }
 
 #history>div {
-  padding-left: 4rem;
+  padding-left: 3rem;
   width: 90%;
 }
 
@@ -98,4 +98,14 @@ li {
 #apod-list a:hover {
   font-weight: 300;
   color: rgb(50, 93, 95);
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  header>h1 {
+    display: none;
+  }
 }
