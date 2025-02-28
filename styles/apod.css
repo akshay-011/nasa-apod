@@ -1,0 +1,51 @@
+* {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  line-height: 24px;
+}
+
+body {
+  margin: 0px;
+}
+
+figure {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  padding: 10px;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  color: olive;
+}
+
+h2 {
+  font-size: 30px;
+  color: olive;
+}
+
+article {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
+
+.sub-head {
+
+  background-repeat: repeat-x;
+  text-align: center;
+  padding: 30px;
+  background-clip: text;
+  background-position: center;
+}
+
+.sub-head>h2 {
+  font-size: 4em;
+  margin: 0px 0px 10px 0px;
+  font-weight: 700;
+  color: transparent;
+}
